@@ -1,22 +1,27 @@
 const Index = () => {
     return (
-        <div>
-            <div>
-                <h1>Live Paco</h1>
-                <h2>A solução de reunião mais descomplicada</h2>
-                <div>
-                    <button></button> Dê o play e conheça como funciona a Live Paco
+        <div className="bg-gradient-to-t from-lime-600 to-lime-400 py-20 px-20 text-white flex flex-row">
+
+            <div className="px-10 text-left">
+
+                <h1 className="text-6xl font-bold my-5">Live Paco</h1>
+
+                <h2 className="text-3xl my-5">A solução de reunião mais descomplicada</h2>
+
+                <div className="text-xl">
+                    <button>Play buttom </button> Dê o play e conheça como funciona a Live Paco
                 </div>
+
             </div>
 
-            <div>
-                <h1>Crie aqui a sua sala</h1>
+            <div className="px-10">
+                <h1 className="font-bold text-2xl my-5">Crie aqui a sua sala</h1>
 
-                <input type="text" name="room" id="room" placeholder="Nome da sala"/>
+                <input className="inline-block my-5 w-full bg-transparent border-b border-white" type="text" name="room" id="room" placeholder="Nome da sala"/>
 
-                <input type="text" name="history" id="history" placeholder="Histórico de salas"/>
+                <input className="inline-block my-5 w-full bg-transparent border-b border-white" type="text" name="history" id="history" placeholder="Histórico de salas"/>
 
-                <button>Criar sala</button>
+                <button className="border rounded-md border-white text-center w-full my-5 py-4 text-lg">Criar sala</button>
             </div>
         </div>
     )

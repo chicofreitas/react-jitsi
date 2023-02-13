@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './Pages/Home';
 import MeetingRoom from './Pages/MeetingRoom';
+import '../src/index.css'
 
 function App() {
 	return (
