@@ -2,22 +2,27 @@ import Feature from './Feature'
 
 const Index = () => {
     return (
-        <div className='py-5 px-32 text-center'>
+        <div className='py-5 text-center bg-[#f6f5f8]'>
 
-            <h1 className='text-5xl my-10'>Funcionalidades</h1>
+            <div className='container mx-auto px-40'>
 
-            <div className='grid grid-cols-3 gap-20 text-left my-20'>
-                <Feature key={1} />
+                <h1 className='text-5xl my-10'>Funcionalidades</h1>
 
-                <Feature key={2} />
+                <div className='grid grid-cols-3 gap-32 text-left my-20'>
 
-                <Feature key={3} />
+                    <Feature key={1} />
 
-                <Feature key={4} />
+                    <Feature key={2} />
 
-                <Feature key={5} />
+                    <Feature key={3} />
 
-                <Feature key={6} />
+                    <Feature key={4} />
+
+                    <Feature key={5} />
+
+                    <Feature key={6} />
+
+                </div>
             </div>
             
         </div>

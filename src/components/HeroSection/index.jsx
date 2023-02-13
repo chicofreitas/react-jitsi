@@ -1,8 +1,8 @@
 const Index = () => {
     return (
-        <div className="bg-gradient-to-t from-lime-600 to-lime-400 py-20 px-20 text-white flex flex-row">
+        <div className="bg-gradient-to-t from-lime-600 to-lime-400 py-20 px-48 text-white flex flex-row">
 
-            <div className="px-10 text-left">
+            <div className="px-10 text-left basis-1/2">
 
                 <h1 className="text-6xl font-bold my-5">Live Paco</h1>
 
@@ -14,7 +14,7 @@ const Index = () => {
 
             </div>
 
-            <div className="px-10">
+            <div className="px-10 basis-1/2">
                 <h1 className="font-bold text-2xl my-5">Crie aqui a sua sala</h1>
 
                 <input className="inline-block my-5 w-full bg-transparent border-b border-white" type="text" name="room" id="room" placeholder="Nome da sala"/>
