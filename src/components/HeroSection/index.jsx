@@ -1,6 +1,6 @@
 const Index = () => {
     return (
-        <div className="bg-gradient-to-t from-lime-600 to-lime-400 py-20 px-20 text-white flex flex-row">
+        <div className="bg-gradient-to-t from-lime-600 to-lime-400 py-20 px-48 text-white flex flex-row">
 
             <div className="px-10 text-left basis-1/2">
 
