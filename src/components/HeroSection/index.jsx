@@ -34,10 +34,10 @@ const Index = () => {
 
                 <input className="placeholder:text-white inline-block my-5 w-full bg-transparent border-b border-white" type="text" name="history" id="history" placeholder="Histórico de salas"/>
 
-                <button className="border rounded-md border-white w-full my-5 py-4 text-lg">
-                    <div className="inline-block">
-                        <img src={camera} alt="camera icon" className="mr-2 w-6"/>
-                    </div> 
+                <button className="border rounded-md border-white w-full my-5 py-4 text-lg text-center">
+                    
+                    <img src={camera} alt="camera icon" className="inline mr-2 w-6"/>
+                    
                     Criar sala
                 </button>
 
