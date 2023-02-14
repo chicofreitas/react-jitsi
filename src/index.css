@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('assets/fonts/static/Montserrat-Light.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: "AxiForma";
+    src: url('assets/fonts/Axiforma/Kastelov\ -\ Axiforma\ Bold.otf');
+  }
