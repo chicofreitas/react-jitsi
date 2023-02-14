@@ -1,4 +1,4 @@
-import image from "../../../assets/image-7@2x.png"
+    import image from "../../../assets/image-7.png"
 
 const Index = () => {
     return (
@@ -6,14 +6,14 @@ const Index = () => {
 
             <div className="basis-1/2 text-lg mr-20 px-20">
 
-                <h1 className="text-2xl mb-8 font-bold">Faça reuniões com segurança</h1>
+                <h1 className="text-2xl mb-6 font-bold">Faça reuniões com segurança</h1>
 
-                <p>A Live Paco usa as mesmas proteções que a Paco para protejer suas informações e privacidade. 
+                <p className="my-10">A Live Paco usa as mesmas proteções que a Paco para protejer suas informações e privacidade. 
                     As videoconferências da Live Paco são criptografadas em trânsito, e nossas diversas medidas de segurança são atualizadas continuamente para 
                     proteção adicional.
                 </p>
 
-                <span>Saiba mais sobre segurança e compliance</span>
+                <a  href="#" className="text-gray-500">Saiba mais sobre segurança e compliance</a>
 
             </div>
 
